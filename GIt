@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Comparison</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Smartphone Comparison</h2>
+
+    <table>
+        <caption>Comparison of Smartphone Features and Prices</caption>
+        <tr>
+            <th>Feature</th>
+            <th colspan="3">Smartphone Models</th>
+        </tr>
+        <tr>
+            <th>Model</th>
+            <th>Phone A</th>
+            <th>Phone B</th>
+            <th>Phone C</th>
+        </tr>
+        <tr>
+            <td>Price (USD)</td>
+            <td>$699</td>
+            <td>$799</td>
+            <td>$999</td>
+        </tr>
+        <tr>
+            <td>Battery Life (hours)</td>
+            <td>20</td>
+            <td>24</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Camera Quality (MP)</td>
+            <td>12</td>
+            <td>48</td>
+            <td>64</td>
+        </tr>
+    </table>
+
+    <h3>Conclusions:</h3>
+    <ol>
+        <li>Phone C has the highest camera quality but the shortest battery life.</li>
+        <li>Phone B offers the best battery life, making it ideal for long usage without frequent charging.</li>
+        <li>Phone A is the most budget-friendly option but has the lowest camera quality.</li>
+    </ol>
+
+</body>
+</html>
